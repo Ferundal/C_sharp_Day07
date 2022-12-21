@@ -6,7 +6,7 @@ using d07_ex02.Attributes;
 
 namespace d07_ex02.ConsoleSetter
 {
-    public class ConsoleSetter<T>
+    public class ConsoleSetter<T> where T : class
     {
         public void SetValues(T input)
         {
